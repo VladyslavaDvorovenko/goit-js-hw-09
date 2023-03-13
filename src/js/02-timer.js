@@ -9,7 +9,6 @@ const dataMinutes = document.querySelector('[data-minutes]');
 const dataSeconds = document.querySelector('[data-seconds]');
 let intervalId = null;
 startBtn.disabled = true;
-startBtn.disabled = false;
 
 const options = {
   enableTime: true,
